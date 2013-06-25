@@ -1,0 +1,13 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}
+    {{ title }} | {% trans 'The Condor' %}
+{% endblock %}
+
+{% block branding %}
+    <a href="{% url 'admin:index' %}" class="brand" id="site-name">{% trans 'The Condor' %}</a>
+    <link rel="shortcut icon" href="{{ STATIC_URL }}favicon.png" /> <!-- well it's magic ain't it! -->
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

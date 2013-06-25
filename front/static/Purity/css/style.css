@@ -1,0 +1,78 @@
+/*
+
+**********************************************************
+THEME NAME : PURITY
+MARKETPLACE: WRAPBOOTSTRAP
+THEME DESIGNER : ASLAM SHAH
+THEME COMPANY : uExel
+COMPANY WEBSITE: http:uexel.com
+SUPPORT EMAIL: info@uexel.com
+FREELANCING : info@uexel.com
+**********************************************************
+
+*/
+
+@font-face {
+    font-family:Quicksand_Light;
+    src: url("../../../static/Quicksand_Light.otf");
+}
+
+.navbar-inner {
+    background:#2D3538;
+    background-color:#2D3538;
+    filter:none;
+    background-image:none;
+    border:none;
+    -webkit-transition:background .3s ease;
+    -moz-transition:background .3s ease;
+    -o-transition:background .3s ease;
+    -ms-transition:background .3s ease;
+    transition:background .3s ease;
+}
+
+.navbar-inner {
+    background:rgba(46,46,46,0.975);
+}
+
+.navbar .navbar-inner.sticky {
+    background:rgba(0,0,0,0.975);
+    border-bottom:none;
+    font-family:Quicksand_Light;
+    font-size:22px;
+    padding:5px;
+}
+
+.navbar .sticky .nav > li > a:hover {
+    color:#7AB5D3;
+    background:none;
+}
+
+.navbar .sticky .nav > li.active a {
+    background:transparent;
+    color:#62C462;
+}
+
+.navbar .sticky .nav > li a {
+    background:transparent;
+    color:#b4b4b4;
+    text-shadow: none;
+}
+
+.btn {
+    background: none repeat scroll 0 0 #8AB833;
+    border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25);
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 0 transparent !important;
+    color: #FFFFFF;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 8px;
+    padding: 0 22px;
+    text-shadow: none;
+}
+
+.btn:hover {
+    background: none repeat scroll 0 0 #82AD38;
+    color: #FFFFFF;
+    text-shadow: none;
+}
