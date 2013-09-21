@@ -1,9 +1,0 @@
-Django
-dj-database-url
-psycopg2
-gunicorn
-bootstrap-admin
-django-sendsms
-PIL
-reportlab
-twilio
