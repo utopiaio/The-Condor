@@ -1,13 +1,14 @@
-#The Condor
+#[The Condor](https://www.youtube.com/watch?v=H53kBYo1Jx8)
 
-The name is from he Movie [Reno 911 (The Rock)](https://www.youtube.com/watch?v=H53kBYo1Jx8)
+- the app is hosted on Heroku @ [http://brucewilli.herokuapp.com/TheCondor/] **BUT** since i don't have AWS it's a bit *wired*
+- use username `moe` and password `moe@22` **with great power comes GREAT responsibility**
 
 ##Features
 - Built with Python, what more do i need to say
 - Automatic Report Card (PDF)
 - Grading support on non-numeric subjects (A, B, C...)
 - Calender year division in to semesters
-- Ranking [supports SAME ranking i.e. 1, 1, 3]
+- Ranking [supports same ranking i.e. 1, 1, 3]
 - Permission
 - Student Transfer / Migration at end of Academic year
 - Mark Input validation
@@ -16,11 +17,11 @@ The name is from he Movie [Reno 911 (The Rock)](https://www.youtube.com/watch?v=
 
 ##Installation
 - Well you need Windows --- naa, am kidding can you imagine, you'll need a Mac or Linux running Python 2.7.4+
-- install pip
+- install [pip](http://www.pip-installer.org)
 ```bash
     $sudo apt-get install python-pip
 ```
-- install virtual environment for python if you don't like to live DANGOURSLY
+- install [virtual environment for python](http://www.virtualenv.org/) if you don't like to live DANGOURSLY
 ```bash
     $sudo pip install virtualenv
 ```
@@ -41,7 +42,7 @@ The name is from he Movie [Reno 911 (The Rock)](https://www.youtube.com/watch?v=
     $pip install -r requirements.txt
 ```
 - run a few commands
-```
+```bash
     $python manage.py syncdb
     $python manage.py runserver
 ```
@@ -49,7 +50,7 @@ The name is from he Movie [Reno 911 (The Rock)](https://www.youtube.com/watch?v=
 
 ##Heads Up
 - i did NOT stress on static files for the *front* page, i just created a *fake* app so to store the files and serve them from there BUT you and i know it's wrong
-- you might run in to problems installing `Pillow` and `reportlab`, so be sure to read their documentation for PROPER pip install
+- you might run in to problems installing [Pillow](https://github.com/python-imaging/Pillow) and [reportlab](http://www.reportlab.com), so be sure to read their documentation for PROPER pip install
 - the app is designed for St. Joseph school it's PONTLESS making the app *generic* since EVERY school follows a DIFFRENT style on reporting, grading...
 - the app can be EASILY tweaked so suit EVERY need
 - go to `setting.py` and set a few values, most values are set for development, if you want to deploy it make sure to change the values to the appropriate one [mostly from console to REAL world]
