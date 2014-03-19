@@ -1,0 +1,6 @@
+Django==1.5.1
+twilio==3.6.6
+bootstrap-admin==0.3.0
+django-sendsms==0.2.2
+Pillow==2.2.0
+reportlab==3.0

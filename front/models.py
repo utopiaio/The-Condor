@@ -86,7 +86,7 @@ class Gallery (models.Model):
         """ returns the image -- HTML-ed """
 
         return format_html ("<img src='/{}' style='max-height:100px; width:auto;' class='img-rounded' />".format (self.image)) # yep python 2.7.4 is a BAD ASS
-        
+
 
     imazion.allow_tags = True
 
