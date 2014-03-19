@@ -1,7 +1,8 @@
 #[The Condor](https://www.youtube.com/watch?v=H53kBYo1Jx8)
 
-- the app is hosted on Heroku @ [http://brucewilli.herokuapp.com/TheCondor/] **BUT** since i don't have AWS it's a bit *wired*
-- use username `moe` and password `moe@22` **with great power comes GREAT responsibility**
+- the app is hosted on [Heroku](http://brucewilli.herokuapp.com/TheCondor) **BUT** since i don't have AWS it's a bit *wired*
+- use username `moe` and password `moe@22`
+- am using the FREE version so don't eat up my dyno hours or 10K rows
 
 ##Features
 - Built with Python, what more do i need to say
